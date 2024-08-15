@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Software projects/Quartus/async_fifo/simulation/modelsim
+vasync_fifo
+Z1 !s110 1721220846
+!i10b 1
+!s100 OzdE]Ti<GVDDKnSJLn@Z31
+Ij2:eeYD2b9ibOYl=FZn103
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1721212038
+8D:/Software projects/Quartus/async_fifo/async_fifo.v
+FD:/Software projects/Quartus/async_fifo/async_fifo.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1721220846.000000
+!s107 D:/Software projects/Quartus/async_fifo/async_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/async_fifo|D:/Software projects/Quartus/async_fifo/async_fifo.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+D:/Software projects/Quartus/async_fifo}
+Z7 tCvgOpt 0
+vdpram
+R1
+!i10b 1
+!s100 aDQWcc:>k]C98gcgBj@J50
+ITzJf]Kh;fl09dF80EY5eW1
+R2
+R0
+w1721212477
+8D:/Software projects/Quartus/async_fifo/dpram.v
+FD:/Software projects/Quartus/async_fifo/dpram.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Software projects/Quartus/async_fifo/dpram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/async_fifo|D:/Software projects/Quartus/async_fifo/dpram.v|
+!i113 1
+R5
+R6
+R7
+vrptr_handler
+R1
+!i10b 1
+!s100 5nIB91l]ca2[SAl?941iY3
+I1lk9@XHK[>QOF82S3G[`S3
+R2
+R0
+w1721211844
+8D:/Software projects/Quartus/async_fifo/rptr_handler.v
+FD:/Software projects/Quartus/async_fifo/rptr_handler.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Software projects/Quartus/async_fifo/rptr_handler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/async_fifo|D:/Software projects/Quartus/async_fifo/rptr_handler.v|
+!i113 1
+R5
+R6
+R7
+vsynchronizer
+!s110 1721220845
+!i10b 1
+!s100 8YU_oXEgF?c3J5CGVn]671
+Io^A:Rn2ABkE^9gV5aDJHe3
+R2
+R0
+w1721138033
+8D:/Software projects/Quartus/async_fifo/synchronizer.v
+FD:/Software projects/Quartus/async_fifo/synchronizer.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1721220845.000000
+!s107 D:/Software projects/Quartus/async_fifo/synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/async_fifo|D:/Software projects/Quartus/async_fifo/synchronizer.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R1
+!i10b 1
+!s100 L8j:EQnlO9Xz]kF_eXJnB0
+Im@kbSf2NV]6PL@?lQK_3R3
+R2
+R0
+w1721220824
+8D:/Software projects/Quartus/async_fifo/testbench.v
+FD:/Software projects/Quartus/async_fifo/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Software projects/Quartus/async_fifo/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/async_fifo|D:/Software projects/Quartus/async_fifo/testbench.v|
+!i113 1
+R5
+R6
+R7
+vwptr_handler
+R1
+!i10b 1
+!s100 ?@ZbmeaJ3OGId@<WfHgUn0
+I[RL73AO3McNn5FE4zG7jX0
+R2
+R0
+w1721211988
+8D:/Software projects/Quartus/async_fifo/wptr_handler.v
+FD:/Software projects/Quartus/async_fifo/wptr_handler.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Software projects/Quartus/async_fifo/wptr_handler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Software projects/Quartus/async_fifo|D:/Software projects/Quartus/async_fifo/wptr_handler.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "full",
+					"strict" : false
+				},
+				{
+					"name" : "empty",
+					"strict" : false
+				},
+				{
+					"name" : "rinc",
+					"strict" : false
+				},
+				{
+					"name" : "rclk",
+					"strict" : false
+				},
+				{
+					"name" : "rresetn",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "wclk",
+					"strict" : false
+				},
+				{
+					"name" : "winc",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "wdata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "wresetn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

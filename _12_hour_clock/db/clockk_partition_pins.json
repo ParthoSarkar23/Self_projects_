@@ -1,0 +1,289 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pm",
+					"strict" : false
+				},
+				{
+					"name" : "hh[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hh[1]",
+					"strict" : false
+				},
+				{
+					"name" : "hh[2]",
+					"strict" : false
+				},
+				{
+					"name" : "hh[3]",
+					"strict" : false
+				},
+				{
+					"name" : "hh[4]",
+					"strict" : false
+				},
+				{
+					"name" : "hh[5]",
+					"strict" : false
+				},
+				{
+					"name" : "hh[6]",
+					"strict" : false
+				},
+				{
+					"name" : "hh[7]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mm[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ss[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_hh0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_mm0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_ss0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "ena",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

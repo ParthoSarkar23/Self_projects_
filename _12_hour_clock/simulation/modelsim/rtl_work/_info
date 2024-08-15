@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/PARTHO/Desktop/prjct/simulation/modelsim
+vbcd_to_7seg
+Z1 !s110 1723616091
+!i10b 1
+!s100 <k3oY0if]@QN_meg4=fVG1
+IoI[6SMmnMRYB1<jWiEiPg0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1723615996
+8C:/Users/PARTHO/Desktop/prjct/bcd_to_7seg.v
+FC:/Users/PARTHO/Desktop/prjct/bcd_to_7seg.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1723616091.000000
+!s107 C:/Users/PARTHO/Desktop/prjct/bcd_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PARTHO/Desktop/prjct|C:/Users/PARTHO/Desktop/prjct/bcd_to_7seg.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/PARTHO/Desktop/prjct
+Z7 tCvgOpt 0
+vclockk
+R1
+!i10b 1
+!s100 Y5K5mKlzAF[`P5oTH4Ohd0
+Ib3oQZ2Id=Kd:zQ]iRWYeY0
+R2
+R0
+w1723615867
+8C:/Users/PARTHO/Desktop/prjct/clockk.v
+FC:/Users/PARTHO/Desktop/prjct/clockk.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PARTHO/Desktop/prjct/clockk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PARTHO/Desktop/prjct|C:/Users/PARTHO/Desktop/prjct/clockk.v|
+!i113 1
+R5
+R6
+R7
+vcount60
+R1
+!i10b 1
+!s100 0hKfnZ71o553hoEGP9jHR3
+Ib73K6b6IRGJ8P@NOfSHlK1
+R2
+R0
+w1723615854
+8C:/Users/PARTHO/Desktop/prjct/count60.v
+FC:/Users/PARTHO/Desktop/prjct/count60.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PARTHO/Desktop/prjct/count60.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PARTHO/Desktop/prjct|C:/Users/PARTHO/Desktop/prjct/count60.v|
+!i113 1
+R5
+R6
+R7
+vtb
+R1
+!i10b 1
+!s100 Gn:`02h<M^LKRka7IEWJI3
+Ida>>zzbhba0G<jTdANJ@R1
+R2
+R0
+w1723615886
+8C:/Users/PARTHO/Desktop/prjct/tb.v
+FC:/Users/PARTHO/Desktop/prjct/tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/PARTHO/Desktop/prjct/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/PARTHO/Desktop/prjct|C:/Users/PARTHO/Desktop/prjct/tb.v|
+!i113 1
+R5
+R6
+R7

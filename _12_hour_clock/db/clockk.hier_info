@@ -1,0 +1,227 @@
+|clockk
+clk => clk.IN2
+reset => reset.IN2
+ena => ena_hms[0].IN1
+pm << pm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+hh[0] << hh[0].DB_MAX_OUTPUT_PORT_TYPE
+hh[1] << hh[1].DB_MAX_OUTPUT_PORT_TYPE
+hh[2] << hh[2].DB_MAX_OUTPUT_PORT_TYPE
+hh[3] << hh[3].DB_MAX_OUTPUT_PORT_TYPE
+hh[4] << hh[4].DB_MAX_OUTPUT_PORT_TYPE
+hh[5] << hh[5].DB_MAX_OUTPUT_PORT_TYPE
+hh[6] << hh[6].DB_MAX_OUTPUT_PORT_TYPE
+hh[7] << hh[7].DB_MAX_OUTPUT_PORT_TYPE
+mm[0] << mm[0].DB_MAX_OUTPUT_PORT_TYPE
+mm[1] << mm[1].DB_MAX_OUTPUT_PORT_TYPE
+mm[2] << mm[2].DB_MAX_OUTPUT_PORT_TYPE
+mm[3] << mm[3].DB_MAX_OUTPUT_PORT_TYPE
+mm[4] << mm[4].DB_MAX_OUTPUT_PORT_TYPE
+mm[5] << mm[5].DB_MAX_OUTPUT_PORT_TYPE
+mm[6] << mm[6].DB_MAX_OUTPUT_PORT_TYPE
+mm[7] << mm[7].DB_MAX_OUTPUT_PORT_TYPE
+ss[0] << ss[0].DB_MAX_OUTPUT_PORT_TYPE
+ss[1] << ss[1].DB_MAX_OUTPUT_PORT_TYPE
+ss[2] << ss[2].DB_MAX_OUTPUT_PORT_TYPE
+ss[3] << ss[3].DB_MAX_OUTPUT_PORT_TYPE
+ss[4] << ss[4].DB_MAX_OUTPUT_PORT_TYPE
+ss[5] << ss[5].DB_MAX_OUTPUT_PORT_TYPE
+ss[6] << ss[6].DB_MAX_OUTPUT_PORT_TYPE
+ss[7] << ss[7].DB_MAX_OUTPUT_PORT_TYPE
+seg_hh1[0] << bcd_to_7seg:digit_hh1.seg
+seg_hh1[1] << bcd_to_7seg:digit_hh1.seg
+seg_hh1[2] << bcd_to_7seg:digit_hh1.seg
+seg_hh1[3] << bcd_to_7seg:digit_hh1.seg
+seg_hh1[4] << bcd_to_7seg:digit_hh1.seg
+seg_hh1[5] << bcd_to_7seg:digit_hh1.seg
+seg_hh1[6] << bcd_to_7seg:digit_hh1.seg
+seg_hh0[0] << bcd_to_7seg:digit_hh0.seg
+seg_hh0[1] << bcd_to_7seg:digit_hh0.seg
+seg_hh0[2] << bcd_to_7seg:digit_hh0.seg
+seg_hh0[3] << bcd_to_7seg:digit_hh0.seg
+seg_hh0[4] << bcd_to_7seg:digit_hh0.seg
+seg_hh0[5] << bcd_to_7seg:digit_hh0.seg
+seg_hh0[6] << bcd_to_7seg:digit_hh0.seg
+seg_mm1[0] << bcd_to_7seg:digit_mm1.seg
+seg_mm1[1] << bcd_to_7seg:digit_mm1.seg
+seg_mm1[2] << bcd_to_7seg:digit_mm1.seg
+seg_mm1[3] << bcd_to_7seg:digit_mm1.seg
+seg_mm1[4] << bcd_to_7seg:digit_mm1.seg
+seg_mm1[5] << bcd_to_7seg:digit_mm1.seg
+seg_mm1[6] << bcd_to_7seg:digit_mm1.seg
+seg_mm0[0] << bcd_to_7seg:digit_mm0.seg
+seg_mm0[1] << bcd_to_7seg:digit_mm0.seg
+seg_mm0[2] << bcd_to_7seg:digit_mm0.seg
+seg_mm0[3] << bcd_to_7seg:digit_mm0.seg
+seg_mm0[4] << bcd_to_7seg:digit_mm0.seg
+seg_mm0[5] << bcd_to_7seg:digit_mm0.seg
+seg_mm0[6] << bcd_to_7seg:digit_mm0.seg
+seg_ss1[0] << bcd_to_7seg:digit_ss1.seg
+seg_ss1[1] << bcd_to_7seg:digit_ss1.seg
+seg_ss1[2] << bcd_to_7seg:digit_ss1.seg
+seg_ss1[3] << bcd_to_7seg:digit_ss1.seg
+seg_ss1[4] << bcd_to_7seg:digit_ss1.seg
+seg_ss1[5] << bcd_to_7seg:digit_ss1.seg
+seg_ss1[6] << bcd_to_7seg:digit_ss1.seg
+seg_ss0[0] << bcd_to_7seg:digit_ss0.seg
+seg_ss0[1] << bcd_to_7seg:digit_ss0.seg
+seg_ss0[2] << bcd_to_7seg:digit_ss0.seg
+seg_ss0[3] << bcd_to_7seg:digit_ss0.seg
+seg_ss0[4] << bcd_to_7seg:digit_ss0.seg
+seg_ss0[5] << bcd_to_7seg:digit_ss0.seg
+seg_ss0[6] << bcd_to_7seg:digit_ss0.seg
+
+
+|clockk|count60:count_ss
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockk|count60:count_mm
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+clk => q[2]~reg0.CLK
+clk => q[3]~reg0.CLK
+clk => q[4]~reg0.CLK
+clk => q[5]~reg0.CLK
+clk => q[6]~reg0.CLK
+clk => q[7]~reg0.CLK
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+ena => q.OUTPUTSELECT
+q[0] <= q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= q[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= q[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= q[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= q[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockk|bcd_to_7seg:digit_hh1
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockk|bcd_to_7seg:digit_hh0
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockk|bcd_to_7seg:digit_mm1
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockk|bcd_to_7seg:digit_mm0
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockk|bcd_to_7seg:digit_ss1
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|clockk|bcd_to_7seg:digit_ss0
+bcd[0] => Decoder0.IN3
+bcd[1] => Decoder0.IN2
+bcd[2] => Decoder0.IN1
+bcd[3] => Decoder0.IN0
+seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
