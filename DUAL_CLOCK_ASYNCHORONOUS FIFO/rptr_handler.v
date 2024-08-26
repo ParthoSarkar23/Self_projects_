@@ -16,7 +16,7 @@ assign raddr = {inv_msb, gptr[n-3:0]};
 
 genvar i;
 generate 
-for ( i=0; i<n; i=i+1 ) begin : pratham
+  for ( i=0; i<n; i=i+1 ) begin : block
 assign b1[i] = ^(gptr>>i);
 end
 endgenerate
