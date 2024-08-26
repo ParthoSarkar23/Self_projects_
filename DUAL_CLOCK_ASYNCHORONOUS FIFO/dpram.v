@@ -10,7 +10,7 @@ reg  [3:0] mem [0 : 2**(n-1) - 1];
 
 genvar i;
 generate 
-for ( i=0; i<n-1; i=i+1 ) begin : pratham
+  for ( i=0; i<n-1; i=i+1 ) begin : block1
 assign raddr_b[i] = ^(raddr_g>>i);
 assign waddr_b[i] = ^(waddr_g>>i);
 end
